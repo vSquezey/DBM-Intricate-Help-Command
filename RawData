@@ -1,0 +1,691 @@
+{
+  "name": "Help",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "AxqHg",
+  "actions": [
+    {
+      "condition": "0",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "4",
+      "iftrueVal": "paramaa",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Parameters"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "serverName",
+      "name": "Store Server Info"
+    },
+    {
+      "title": "${tempVars(\"serverName\")} Command List📢",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "emb",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "message": "Here is a list of all commands. Please \nuse the sub commands listed below to \nsee the command list in each category.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "🔈Music",
+      "message": "!help m",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "🔧Admin",
+      "message": "!help a",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "💬General",
+      "message": "!help g",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "💰Econemy",
+      "message": "!help e",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "message": "Do !Help [Prefix] To See Further Details. 💢",
+      "footerIcon": "https://i.imgur.com/ICK2lr1b.jpg",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "emb",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "permission": "ADMINISTRATOR",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "25",
+      "name": "Check Member Permissions"
+    },
+    {
+      "title": "For admins only!",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "admin",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "📺!NewUpload [Link]",
+      "message": "Will display your video \nwith an added message \nthrough the bot!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "👋!SetupWelcome",
+      "message": "Sets up the default\nwelcome channel.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "admin",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "1",
+      "varName3": "adminhelp",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "time": "1",
+      "measurement": "2",
+      "name": "Wait"
+    },
+    {
+      "storage": "1",
+      "varName": "adminhelp",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "anchor_id": "paramaa",
+      "color": "#000000",
+      "description": "",
+      "name": "Create Anchor"
+    },
+    {
+      "message": "0",
+      "varName": "",
+      "info": "0",
+      "ParamN": "1",
+      "separator": "",
+      "storage": "1",
+      "varName2": "param",
+      "count": "",
+      "name": "Store Message Params"
+    },
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "1",
+      "value": "\"m\"",
+      "iftrue": "4",
+      "iftrueVal": "music",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "1",
+      "value": "\"a\"",
+      "iftrue": "4",
+      "iftrueVal": "admin",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "1",
+      "value": "\"g\"",
+      "iftrue": "4",
+      "iftrueVal": "general",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "1",
+      "value": "\"e\"",
+      "iftrue": "4",
+      "iftrueVal": "eco",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "anchor_id": "music",
+      "color": "#000000",
+      "description": "",
+      "name": "Create Anchor"
+    },
+    {
+      "title": "🔈Music Command list, Dont tell YouTube ;)",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "m",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Play [url]🔎",
+      "message": "Plays a song with the \nurl or song title.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Pause‼",
+      "message": "Pauses the song\nresume with !Play.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Stop⛔",
+      "message": "Stops the bot\ncompletely.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Clear❌",
+      "message": "Clears the cue.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Skip⏩",
+      "message": "Skips the current\nsong.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Shuffle🔀",
+      "message": "Shuffles the cue.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "!Loop🔂",
+      "message": "Loops the current song.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "Coming soon",
+      "message": "Coming soon.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "fieldName": "Coming soon",
+      "message": "Coming soon.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "m",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "anchor_id": "admin",
+      "color": "#000000",
+      "description": "",
+      "name": "Create Anchor"
+    },
+    {
+      "title": "🔧Admin Command List",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "a",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "🔎!Userinfo [@user]",
+      "message": "Displays info about\nthe pinged user.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "⛔!Kick [@user]",
+      "message": "Kicks the pinged\nuser.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "⛔!Ban [@user]",
+      "message": "Bans the pinged user.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "!Mute/!Unmute [@user]",
+      "message": "Will mute/ unmute\nthe pinged user",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "Coming soon",
+      "message": "Coming soon.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "fieldName": "Coming soon",
+      "message": "Coming soon.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "a",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "anchor_id": "general",
+      "color": "#000000",
+      "description": "",
+      "name": "Create Anchor"
+    },
+    {
+      "title": "💬General Command List",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "g",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "g",
+      "fieldName": "🔈!Vc [Vc name]",
+      "message": "Creates a personal vc \nthat lasts 2 hours",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "g",
+      "fieldName": "🔍!FAQ",
+      "message": "  Will display a \ncute little section ;)",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "g",
+      "fieldName": "Coming soon",
+      "message": "Coming soon.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "g",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "anchor_id": "eco",
+      "color": "#000000",
+      "description": "",
+      "name": "Create Anchor"
+    },
+    {
+      "title": "💰Econemy Command List",
+      "author": "",
+      "color": "PURPLE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "ecoEMB",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "💰!Bal",
+      "message": "Displays users\nbalance $$",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "💷!Daily",
+      "message": "Claim you'r \ndaily reward",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "fieldName": "Coming Soon!",
+      "message": "Coming Soon!",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "ecoEMB",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ]
+}
